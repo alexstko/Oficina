@@ -22,7 +22,13 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.todo',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon'
 ]
+
+napoleon_google_docstring = True # Para o formato Googledoc
+napoleon_numpy_docstring = True # Para o formato Numpydoc
+
 
 templates_path = ['_templates']
 exclude_patterns = []
