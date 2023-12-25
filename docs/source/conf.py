@@ -23,7 +23,9 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.todo',
     'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon'
+    'sphinx.ext.napoleon',
+    'sphinx.ext.autodoc',
+    'sphinx_epytext'
 ]
 
 napoleon_google_docstring = True # Para o formato Googledoc
